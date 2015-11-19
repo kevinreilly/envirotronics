@@ -1,0 +1,611 @@
+/*
+ Theme Name:   _tk Child
+ Template:     _tk-master
+ Text Domain:  _tk-master
+*/
+
+body{
+	background-image: url('http://envirotronics.wpengine.com/wp-content/themes/_tk-child/img/background.jpg');
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color:#ffffff;
+}
+a:hover, a:focus{
+	text-decoration:none;
+	color:#ffffff;
+}
+.container{
+	background-color: rgba(0,0,0,0.0);
+	padding-top: 0;
+	padding-bottom:0;
+}
+.header{
+	background-color: #041E4C;
+	color: #ffffff;
+	border-bottom-right-radius:25px;
+	padding:22px 0;
+}
+.header-right{
+	border-left: #ffffff solid 1px;
+}
+.font-16{
+	font-size:16px;
+}
+.mast-nav{
+	font-size:0.75em;
+}
+.padding-3em{
+	font-size:3em;
+}
+.inner-addon { 
+    position: relative; 
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.small-search{
+	font-size:10px;
+	height:18px;
+	width:138px !important;
+	border:0;
+	border-radius:0;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+	height:18px;
+	font-size:10px;
+}
+
+.search-small-button{
+	padding:0 1px !important;
+	border:0;
+	border-radius:0;
+}
+
+.input-group-addon, .input-group-btn {
+	width: 0;
+}
+.form-control:focus{
+	webkit-box-shadow:none !important;
+	box-shadow:none !important;
+}
+.search-small-button:focus{
+	webkit-box-shadow:none;
+	box-shadow:none;
+}
+.glyphicon{
+	right:2px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+	outline:none;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+	background-color:#ffffff;
+}
+.btn-default.focus, .btn-default:focus {
+	background-color:#ffffff;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+	background-color:#ffffff;
+}
+.phone{
+	font-size:1.714em;
+	text-align:right;
+	font-weight:100;
+	padding-top:15px;
+}
+.global-manuf{
+	font-size:1.143em;
+	font-weight:100;
+}
+.mini-nav{
+	letter-spacing:0.55px;
+	float:left;
+	font-weight:100;
+	padding-top:2px;
+}
+.mini-nav-search{
+	float:right;
+}
+.navbar-custom
+{
+	padding-left:0;
+	padding-right:0;
+	margin-top:8px;
+	height:42px;
+}
+.navbar
+{
+	border-radius:0 !important;
+	border-top-right-radius:25px !important;
+	background-color: #8F9906;
+	border:0;
+	min-height:3em;
+	letter-spacing: 0.4px;
+	margin-bottom:0;
+}
+.std-header{
+	border-top-right-radius:25px !important;
+	background-color: #616265;
+	min-height:3em;
+	color: #ffffff;
+	margin-top: 8px;
+	padding-top: 0.714em;
+}
+.std-header-text{
+	font-size: 1.571em;
+	line-height: 1em;
+}
+.std-header-link{
+	font-size: 1.143em;
+	line-height: 1em;
+	text-align: right;
+	padding-top: 3px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#ffffff;
+	font-size:1.124em;
+	padding: 10px 12.5px;
+	
+	
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color:#ffffff;
+}
+h3{
+	font-size: 1.143em;
+	text-align: left;
+}
+.quotes{
+	background-color: #ffffff;
+	color:#02183E;
+	min-height:64px;
+}
+.in-stock{
+	font-size: 1.429em;
+	margin-top: 19px;
+}
+.in-stock-quotes{
+	margin-top: 22px;
+	text-align:right;
+}
+.a-black
+{
+	color:#02183E;
+}
+.a-black:hover, .a-black:focus
+{
+	color:#02183E;
+}
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #8F9906;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #8F9906;
+}
+.nav-justified > li > a {
+    border-radius: 0px;
+	font-size: 0.857em;
+}
+.nav-pills>li{
+	background-color:#041745;
+	border-bottom: 5px solid #8A9400;
+	border-top: 2px solid #ffffff;
+	padding-left: 9px;
+	padding-top: 9px;
+}
+.nav-pills>li a{
+	padding:0;
+	text-align: left;
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="1"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="2"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="3"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="4"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="5"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="6"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="7"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="8"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="9"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="10"].active a { background-color: #8A9400;}
+.nav-pills>li[data-slide-to="11"].active a { background-color: #8A9400;}
+
+.nav-pills>li[data-slide-to="0"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="1"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="2"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="3"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="4"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="5"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="6"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="7"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="8"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="9"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="10"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+.nav-pills>li[data-slide-to="11"].active { background-color: #8A9400;border-top: 2px solid #8A9400;}
+
+.nav>li>a:hover, .nav>li>a:focus {background-color:#041745;}
+
+.caret{
+	display:none;
+}
+
+.menu-item, .menu-item-type-post_type, .menu-item-object-page{
+	display:inline-block;
+}
+
+ul#menu-top li a:after {
+	content:' | ';
+}
+ul#menu-top li:last-of-type a:after {
+	content:'';
+}
+
+.slider-tab{
+	font-size: 0.857em;
+	color:#ffffff;
+	height: 5.857em;
+}
+
+.carousel-caption {
+	padding:0;
+	background-color: rgba(255,255,255,0.75);
+	right:0;
+	top:20%;
+	height:auto;
+	left:63.4%;
+	padding:15px 21px;
+	text-align:left;
+	bottom: auto;
+}
+
+.carousel-caption > h3{
+	text-align:left;
+	margin: 9px 0;
+	font-size: 1.571em;
+	color:#02183E;
+	
+}
+.carousel-button{
+	background-color:#7D8200;
+	border: none;
+	width:72px;
+	padding: 6px 6px;
+}
+.carousel-caption > .carousel-button > a{
+	font-size: 1em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.carousel-control{
+	width:0;
+	opacity: 1;
+}
+
+.footer-top{
+	background-color: #ffffff;
+	margin-top: 0.571em;
+}
+
+.footer-top a{
+	color:#656565;
+	font-size: 0.857em;
+}
+
+.footer-bottom{
+	background-color: #7D8200;
+	font-size: 0.857em;
+	padding: 1em 0;
+	color: #ffffff;
+	margin-top: 0.571em;
+	margin-bottom: 15.714em;
+}
+.menu-footer{
+	padding-left:0;
+}
+
+.sub-menu{
+	padding-left: 0;
+}
+
+
+.submenu-custom li{
+	display: block !important;
+}
+
+.custom-col-2
+{
+	padding-left: 0;	
+}
+
+.news-title{
+	padding-left:0.3em;
+	font-size: 1.143em;
+	color: #02183E;
+}
+.news-content{
+	color: #313131;
+}
+.news-right-border{
+	border-right:solid 1px #D7D7D7; 
+}
+.news-image{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.img-responsive{
+	margin: auto;
+}
+.news{
+	background-color: #ffffff;
+}
+.row-same-height{
+	display: table;
+	padding:1em 0;
+}
+.row-same-height-nostyle{
+	dispaly: table;
+}
+.cell{
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+}
+.half{
+	background-color:#ffffff;
+}
+.half-header{
+	color:#02183E;
+	font-size: 1.571em;
+	padding-top: 25px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #8B8B8B;
+}
+.half-bottom{
+	padding-bottom: 1.714em;
+}
+.carousel-mini{
+	  
+}
+.carousel-indicators li {
+   background-color:#041E4C;
+}
+.carousel-indicators .active
+{
+	background-color:#8F9906;
+}
+li.active{
+	background-color: #8A9400;
+	border-top:5px solid #8A9400;
+}
+.carousel-indicators{
+	position: static;
+	left: 0;
+	width: 100%;
+	margin-left: 0;
+	text-align: left;
+}
+.no-padding{
+	padding-left: 0;
+	padding-right: 0;
+}
+.category-body{
+	background-color: #ffffff;
+	padding-top:2em;
+}
+.panel-custom{
+	margin-top: 0;
+}
+
+.list-group-item{
+	border:none;
+	border-radius:0 !important;
+	box-shadow:none !important;
+	-webkit-box-shadow: none;
+	background-color:#EDEDED;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 8px 10px;
+}
+.panel{
+	border:0;
+	border-radius:0;
+	box-shadow:0;
+	-webkit-box-shadow: none;
+	background-color:#ffffff;
+}
+a.list-group-item:hover, a.list-group-item:focus, .list-group-item-active {
+  text-decoration: none;
+  color: #fff;
+  background-color: #8A9400;
+}
+
+.small{
+	background-color:#ffffff;
+	border-bottom:1px solid #D6D6D6;
+	font-size: 1em;
+}
+.small::before{
+	content: '\009B';
+}
+.large{
+	color: #02183E !important;
+	font-size: 1em;
+}
+
+.list-group-item:last-child{
+	border: none;
+}
+
+.products{
+	margin-bottom: 15px;
+}
+.product-menu{
+	border-top: 1px solid #888888;
+	padding-top: 15px;
+}
+
+.page-title{
+	font-size: 1.571em;
+	color:#02183E;
+}
+.products-right-panel{
+	border-top: 1px solid #888888;
+}
+.product-post{
+	padding: 1em 0;
+	border-bottom: 2px solid #E0E0E0;
+}
+.prod-pills{
+	height: 4.1em;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color:#788000;
+}
+.product-copy{
+	font-size:0.857em;
+	color: #313131;
+}
+.product-post:last-child{
+	border-bottom: none;
+}
+.product-title{
+	color: #02183E;
+}
+.product-title:hover{
+	color: #02183E;
+}
+.more-info a{
+	color: #02183E;
+	font-size:0.929em;
+}
+.site-map{
+	padding: 1em 0;
+}
+.aof-body{
+	background-color: #ffffff;
+	padding: 1em 0;
+}
+.aof-col{
+	border-right: 1px solid #D7D7D7;
+}
+.aof-col:last-child{
+	border-right: 1px solid #FFFFFF;
+}
+.aof-focus{
+	color: #474747;
+	font-size: 1.143em;
+}
+.aof-title{
+	font-size:1.571em;
+	color: #02183E;
+}
+.aof-copy{
+	color:#313131;
+}
+.no-side-padding{
+	padding-left:0;
+	padding-right:0;
+}
+.padding-top-bottom{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.float-right{
+	text-align:right;
+}
+.sa
+{
+	list-style: inside;
+    -webkit-column-count: 3;
+    -webkit-column-gap:0.5em;
+    -moz-column-count:3;
+    -moz-column-gap:0.5em;
+    -o-column-count:3;
+    -o-column-gap:0.5em;
+    column-count:3;
+    column-gap:0.5em;
+    list-style-image: url('http://envirotronics.wpengine.com/wp-content/themes/_tk-child/img/arrow.png');
+	padding-left:0;
+
+
+}
+.sa li{
+    padding-left: 1em;
+    text-indent: -0.8em;
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+}
+.white{
+	background-color: #ffffff;
+	padding-bottom: 2em;
+}
+.width-100{
+	width:100%;
+}
+.no-padding-left{
+	padding-left:0;
+}
+.no-padding-right{
+	padding-right:0;
+}
+.no-padding-left-right
+{
+	padding-left:0;
+	padding-right:0;
+}
+.half-em-left{
+	padding-left: 0.5em;
+}
+.half-em-right{
+	padding-right: 0.5em;
+}
+.em-bottom{
+	padding-bottom: 1em;
+}
+.margin-top-8{
+	margin-top: 8px;
+}
+
+.button-bottom-right{
+	position:absolute;
+	bottom: 1.714em;
+	right: 0.5em;
+}
+@media (min-width: 768px) {
+.container {
+    width:750px
+}
+}
+
+@media (min-width: 992px) {
+.container {
+    width:1080px
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    width:1080px
+}
+}
